@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		46D105802BE259B4005D7A64 /* AppOnBoardingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D1057F2BE259B4005D7A64 /* AppOnBoardingViewController.swift */; };
+		46D987B72BE39C8500D0234F /* DisplayModelViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D987B62BE39C8500D0234F /* DisplayModelViewController.swift */; };
 		D169859A2BDABEC9004AE019 /* AccountSettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D16985992BDABEC9004AE019 /* AccountSettingsViewController.swift */; };
 		D19823762BD9B04D00B50C95 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D19823752BD9B04D00B50C95 /* MyCollectionViewCell.swift */; };
 		D1AFC4562BDAE8EF00318713 /* ScansCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AFC4542BDAE8EF00318713 /* ScansCollectionViewCell.swift */; };
@@ -44,6 +46,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		46D1057F2BE259B4005D7A64 /* AppOnBoardingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppOnBoardingViewController.swift; sourceTree = "<group>"; };
+		46D987B62BE39C8500D0234F /* DisplayModelViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayModelViewController.swift; sourceTree = "<group>"; };
 		D16985992BDABEC9004AE019 /* AccountSettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSettingsViewController.swift; sourceTree = "<group>"; };
 		D19823752BD9B04D00B50C95 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D1AFC4542BDAE8EF00318713 /* ScansCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScansCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -164,6 +168,8 @@
 				D16985992BDABEC9004AE019 /* AccountSettingsViewController.swift */,
 				D1F192602BDAE2560008B42A /* ScansViewController.swift */,
 				D1AFC4542BDAE8EF00318713 /* ScansCollectionViewCell.swift */,
+				46D987B62BE39C8500D0234F /* DisplayModelViewController.swift */,
+				46D1057F2BE259B4005D7A64 /* AppOnBoardingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -308,6 +314,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D1BBA8082BCF27F5002F2A66 /* ViewController.swift in Sources */,
+				46D105802BE259B4005D7A64 /* AppOnBoardingViewController.swift in Sources */,
 				D1F192612BDAE2560008B42A /* ScansViewController.swift in Sources */,
 				D19823762BD9B04D00B50C95 /* MyCollectionViewCell.swift in Sources */,
 				D1FF9E982BD2394F00C4CEB4 /* ProfileTableViewController.swift in Sources */,
@@ -316,6 +323,7 @@
 				D1BBA8062BCF27F5002F2A66 /* SceneDelegate.swift in Sources */,
 				D169859A2BDABEC9004AE019 /* AccountSettingsViewController.swift in Sources */,
 				D1B410142BE1800800A3CC30 /* OnboardingViewController.swift in Sources */,
+				46D987B72BE39C8500D0234F /* DisplayModelViewController.swift in Sources */,
 				D1AFC4562BDAE8EF00318713 /* ScansCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

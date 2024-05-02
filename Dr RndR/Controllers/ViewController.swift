@@ -40,7 +40,20 @@ class ViewController: UIViewController {
     }
 
 
+    @IBAction func ButtonTapped(_ sender: UIBarButtonItem) {
+        
+        let newAlert = UIAlertController(title: "Room name", message: "Enter rooom name", preferredStyle: .alert)
+        
+        newAlert.addAction(UIAlertAction(title: "Done", style: .default))
+        
+        newAlert.addAction(UIAlertAction(title: "Cancel", style: .default))
+        
+        newAlert.addTextField()
+        
+        self.present(newAlert, animated: true)
+    }
 }
+
 
 extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource{
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
